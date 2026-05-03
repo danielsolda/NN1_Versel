@@ -1,0 +1,1 @@
+ALTER TABLE public.meal_options ADD COLUMN image_url text DEFAULT NULL;

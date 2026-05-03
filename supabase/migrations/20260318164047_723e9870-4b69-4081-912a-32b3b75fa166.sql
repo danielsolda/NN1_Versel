@@ -1,0 +1,1 @@
+ALTER TABLE public.food_diary_entries ADD COLUMN feedback_read_at timestamptz DEFAULT NULL;

@@ -1,0 +1,16 @@
+
+ALTER TABLE public.recipe_ingredients
+  ADD COLUMN calories NUMERIC,
+  ADD COLUMN protein NUMERIC,
+  ADD COLUMN carbs NUMERIC,
+  ADD COLUMN fat NUMERIC,
+  ADD COLUMN fiber NUMERIC,
+  ADD COLUMN sodium NUMERIC;
+
+ALTER TABLE public.meal_food_items
+  ADD COLUMN calories NUMERIC,
+  ADD COLUMN protein NUMERIC,
+  ADD COLUMN carbs NUMERIC,
+  ADD COLUMN fat NUMERIC,
+  ADD COLUMN fiber NUMERIC,
+  ADD COLUMN sodium NUMERIC;
